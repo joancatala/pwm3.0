@@ -1,0 +1,125 @@
+      body { padding-top: 60px; }
+	  
+     .carousel-inner > .item > img,
+     .carousel-inner > .item > a > img {
+        width: 100%;
+		heigth: 50%;
+        margin: 40px auto 40px auto;
+     }
+	 .carousel-caption {
+	   position: absolute; 
+	   bottom: 5%; 
+	   left: 40px; 
+	   width: 89%;
+	   }
+	  .carousel-caption h2 {color: #fff; }
+
+
+.navbar-right{float:right!important; padding: 0; margin: 0; }
+.navbar-right img, .navbar-right li, .navbar-right a {padding: 0; margin: 0; }
+
+.caixa-ajuntament {
+position: relative; 
+width: 100%; 
+height: 250px; 
+margin: -20px 0 20px 0;
+background-color:#84bde1;
+background-image:-webkit-gradient(linear,left top,left bottom,from(#5594e3),to(#84bde1));
+background-image:-webkit-linear-gradient(top,#5594e3 0,#84bde1 100%);
+background-image:-o-linear-gradient(top,#5594e3 0,#84bde1 100%);
+background-image:linear-gradient(to bottom,#5594e3 0,#84bde1 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5594e3', endColorstr='#84bde1', GradientType=0);
+background-repeat:repeat-x;
+}
+
+#map-container { height: 300px; }
+
+#mapa {margin: 80px 0 60px 0; }
+
+
+/* CSS per al missatge de les Cookies */
+ 
+@keyframes desaparecer
+{
+0%		{bottom: 0px;}
+80%		{bottom: 0px;}
+100%	{bottom: -50px;}
+}
+ 
+@-webkit-keyframes desaparecer /* Safari and Chrome */
+{
+0%		{bottom: 0px;}
+80%		{bottom: 0px;}
+100%	{bottom: -50px;}
+}
+ 
+@keyframes aparecer
+{
+0%		{bottom: -38px;}
+10%		{bottom: 0px;}
+90%		{bottom: 0px;}
+100%	{bottom: -38px;}
+}
+ 
+@-webkit-keyframes aparecer /* Safari and Chrome */
+{
+0%		{bottom: -38px;}
+10%		{bottom: 0px;}
+90%		{bottom: 0px;}
+100%	{bottom: -38px;}
+}
+#cookiesms1:target {
+    display: none;
+}
+.cookiesms{	
+	width:100%;
+	height:28px;
+	margin:0 auto;
+	padding-left:1%;
+    padding-top:20px;
+    font-size: 1.3em;
+	clear:both;
+    font-weight: strong;
+	color: #fff;
+	bottom: 0px;
+	position:fixed;
+	left: 0px;
+	background-color: #000;
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+	transition: bottom 1s;
+	-webkit-transition:bottom 1s; /* Safari */
+	-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+	-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+	box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+	z-index:999999999;
+}
+ 
+.cookiesms:hover{
+bottom:0px;
+}
+.cookies2{
+background-color: #000;
+display:inline;
+opacity:0.95;
+filter:alpha(opacity=95);
+position:absolute; 
+left:1%; 
+top:-50px;
+font-size:15px;
+height:35px;
+padding-top: 15px;
+padding-left:25px;
+padding-right:25px;
+-webkit-border-top-right-radius: 15px;
+-webkit-border-top-left-radius: 15px;
+-moz-border-radius-topright: 15px;
+-moz-border-radius-topleft: 15px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+}
+ 
+/* Fin del CSS para cookies */

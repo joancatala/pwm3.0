@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajuntament d'Alcantir</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="bootstrap/css/personalitzacions.css" rel="stylesheet">
+
+	<!-- Javascripts d'inici -->
+	<script>window.jQuery || document.write("<script src='bootstrap/js/jquery-1.7.1.min.js'>\x3C/script>")</script>
+
+	<!-- Script de control de les Cookies -->
+	<script type="text/javascript">
+	function controlcookies() {
+			 // si variable no existe se crea (al clicar en Aceptar)
+		localStorage.controlcookie = (localStorage.controlcookie || 0);
+	 
+		localStorage.controlcookie++; // incrementamos cuenta de la cookie
+		cookie1.style.display='none'; // Esconde la política de cookies
+	}
+	</script>
+	
+  </head>
+
+  <body>
+   
+		<!--Codi per a la política de Cookies -->	 
+		<div class="cookiesms" id="cookie1">
+		Esta web utiliza cookies, puedes ver nuestra  <a href="tu-url-donde-explicas-la-politica-de-cookies">la política de cookies, aquí</a> 
+		Si continuas navegando estás aceptándola
+		<button onclick="controlcookies()">Aceptar</button>
+		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
+		</div>
+		<script type="text/javascript">
+		if (localStorage.controlcookie>0){ 
+		document.getElementById('cookie1').style.bottom = '-50px';
+		}
+		</script>
+		<!-- Fin del código de cookies --->
+
+
+	
+	
+	
+	
+	
+	
+   
+   
+   
+   
+
+
+	   <div class="navbar navbar-fixed-top navbar">
+		  <div class="navbar-inner">
+			<div class="container">
+			  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </a>
+
+          <div class="nav-collapse">
+          
+
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Para los ciudadanos <span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu">
+					<li><a href="#">Saludo del Alcalde</a></li>
+					<li><a href="#">La Corporación</a></li>
+					<li><a href="#">Presupuestos</a></li>
+					<li><a href="#">Teléfonos de interés</a></li>
+					<li><a href="#">Calendario del contribuyente</a></li>
+					<li><a href="#">Entidades y Asociaciones</a></li>
+					<li><a href="#">Transparencia fiscal</a></li>
+					<li><a href="#">Transporte público</a></li>
+					<li><a href="#">Deportes</a></li>
+					<li><a href="#">App móvil Android/iPhone</a></li>
+				  </ul>
+				</li>
+          </ul>
+		  
+		  
+		  
+		   <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Para los visitantes <span class="caret"></span></a>
+       	  <ul class="dropdown-menu" role="menu">
+		        <li><a href="#MarcadorMapa">Cómo llegar</a></li>
+                <li><a href="#">Dónde comer</a></li>
+                <li><a href="#">Dónde dormir</a></li>
+                <li><a href="#">Fiestas del pueblo</a></li>
+				<li><a href="#">Monumentos y Museos</a></li>
+				<li><a href="#">Historia del pueblo</a></li>
+              </ul>
+            </li>
+          </ul>
+		  
+		  
+		  
+		  <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Para las empresas <span class="caret"></span></a>
+       	  <ul class="dropdown-menu" role="menu">
+		        <li><a href="#MarcadorMapa">Mapa de localización</a></li>
+              </ul>
+            </li>
+          </ul>
+		  
+		      <ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><img src="images/social-twitter.png" alt="" /></a></li>
+					<li><a href="#"><img src="images/social-facebook.png" alt="" /></a></li>
+					<li><a href="#"><img src="images/social-google+.png" alt="" /></a></li>
+							
+  
+          </ul>
+	
+          </div>
+        </div>
+      </div>
+    </div>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+	
+
+
+	<!-- caixa de dalt on fiquem el nom de l'ajuntament i un fons gran -->
+	<div class="row caixa-ajuntament">
+	
+		<div class="container">
+				<div class="span6"><a href="./index.html"><img src="images/nom-ajuntament.png" alt="nom ajuntament" /></a></div>
+				<div class="span6"><!-- segona columna de la caixa --></div>
+				
+		</div>
+	
+    </div>
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+   <div class="container">
+		<div class="alert alert-danger">
+		   <strong>Danger!</strong> Indicates a successful or positive action.
+		</div>
+	</div>
+	
+	
+	
+	
+
+
+
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+    <div class="container">
+
+     <div class="row">
+
+ 	<div class="span3"><img src="images/imagen-de-ejemplo.png" alt="" /></div>
+    <div class="span3"><img src="images/imagen-de-ejemplo.png" alt="" /></div>
+	<div class="span3"><img src="images/imagen-de-ejemplo.png" alt="" /></div>
+	<div class="span3"><img src="images/imagen-de-ejemplo.png" alt="" /></div>
+	
+	<br />&nbsp;<br />
+	<div class="span3"><img src="images/imagen-de-ejemplo.png" alt="" /></div>
+    <div class="span3"><img src="images/imagen-de-ejemplo.png" alt="" /></div>
+	<div class="span3"><img src="images/imagen-de-ejemplo.png" alt="" /></div>
+	<div class="span3"><img src="images/imagen-de-ejemplo.png" alt="" /></div>
+     
+	</div>
+	
+	<br />&nbsp;<br />
+	
+
+	  
+	  
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	<div id="myCarousel" class="carousel slide">
+	 
+	   <!-- Carousel items -->
+	   <div class="carousel-inner">
+		  <div class="item active">
+			 <img src="images/slide1.jpg" alt="First slide">
+			 <div class="carousel-caption"><h2>Esta es una prueba de noticia en el carousel de la página.</h2></div>
+		  </div>
+		  <div class="item">
+			 <img src="images/slide2.jpg" alt="Second slide">
+			 <div class="carousel-caption"><h2>Otro test para noticia en el Ayuntamiento</h2></div>
+		  </div>
+		  <div class="item">
+			 <img src="images/slide3.jpg" alt="Third slide">
+			 <div class="carousel-caption"><h2>Aquí un tercer test municipal para la web 2.0</h2></div>
+		  </div>
+		   <div class="item">
+			 <img src="images/slide4.jpg" alt="Third slide">
+			 <div class="carousel-caption"><h2>Cuarta foto del CAROUSEL MUNICIPAL. A ver qué tal va quedando esta foto tan chula.</h2></div>
+		  </div>
+	   </div>	
+		
+	   <!-- Carousel nav -->
+	   <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+	   <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+	</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   <div class="hero-unit">
+        <h1>Noticia destacada de ejemplo</h1>
+        <p>Texto de pruebas para una supuesta noticia destacada de útlima hora que el Ayuntamiento de Alcantir desearía destacar en la primera página, antes de los servicios que ofrece la web.</p>
+        <p><a class="btn btn-primary btn-large">Más información</a></p>
+      </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	  
+	  <div class="hero-unit">
+				<p>Texto de pruebas para una supuesta noticia destacada de útlima hora que el Ayuntamiento de Alcantir desearía destacar en la primera página, antes de los servicios que ofrece la web.</p>
+      </div>
+
+
+	 </div> <!-- tanquem ara el container, així ara tindrem el mapa en full screen -->
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <div id="mapa">
+			 <div class="container"><h1><a id="MarcadorMapa">Mapa de localización</a></h1></div>
+			 
+				<div id="map-canvas">
+					 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48913.71429003555!2d-0.04153986767577278!3d39.98371090199533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sca!2ses!4v1433410701734" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+				</div>
+		</div><!--/mapa-->
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+      <div class="container">
+		
+	  <div class="hero-unit">
+				<p>Texto de pruebas para una supuesta noticia destacada de útlima hora que el Ayuntamiento de Alcantir desearía destacar en la primera página, antes de los servicios que ofrece la web.</p>
+      </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <div id="footer">
+				<div class="pagination-centered">
+				<strong>Ajuntament d'Alcantir</strong> <br />
+				Carrer d'Alcantir nº 20 - 12000 Alcantir (Castelló de la Plana)<br />
+				Telèfon 111 111 111 - FAX 111 111 111 - Correu: info@ajuntamentalcantir.es
+				</div>
+				
+				<p><br />&nbsp;<br /></p>
+				
+				<div class="pagination-centered">Desenvolupat amb programari lliure Bootstrap & PHP/CSS<br />
+				<a href="http://pwm.dipcas.es">Projecte Web Municipal</a> - <a href="http://www.dipcas.es">Diputació de Castelló</a>
+				</div>
+				
+				<p><br />&nbsp;<br /></p>
+	  </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+    </div> <!-- /container -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script> 
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="bootstrap/js/carousel.js"></script>
+		<script src="bootstrap/js/personalitzacions.js"></script>
+	
+  </body>
+</html>
