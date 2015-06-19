@@ -1,35 +1,40 @@
-      body { padding-top: 60px; }
+body { padding-top: 60px; }
 	  
-     .carousel-inner > .item > img,
-     .carousel-inner > .item > a > img {
-        width: 100%;
-		heigth: 50%;
-        margin: 40px auto 40px auto;
-     }
-	 .carousel-caption {
-	   position: absolute; 
-	   bottom: 5%; 
-	   left: 40px; 
-	   width: 89%;
-	   }
-	  .carousel-caption h2 {color: #fff; }
+#caixa_escut {float: left; width: 12%; height: 180px; padding: 20px 0 0 0;}
+#caixa_escut img {width: 100px; }
+#caixa_nom {float: left; width: 50%; height: 180px; padding: 30px 0 0 0;}
+#caixa_nom h1 {font-size: 3.4em; line-height: 50px;}
 
+	  
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+width: 100%;
+heigth: 50%;
+margin: 40px auto 40px auto;
+}
+
+.carousel-caption {
+position: absolute;  bottom: 5%; 
+left: 40px; 
+width: 89%;
+}
+
+.carousel-caption h2 {color: #fff; }
 
 .navbar-right{float:right!important; padding: 0; margin: 0; }
 .navbar-right img, .navbar-right li, .navbar-right a {padding: 0; margin: 0; }
 
 .caixa-ajuntament {
-position: relative; 
-width: 100%; 
-height: 250px; 
-margin: -20px 0 20px 0;
-background-color:#84bde1;
-background-image:-webkit-gradient(linear,left top,left bottom,from(#5594e3),to(#84bde1));
-background-image:-webkit-linear-gradient(top,#5594e3 0,#84bde1 100%);
-background-image:-o-linear-gradient(top,#5594e3 0,#84bde1 100%);
-background-image:linear-gradient(to bottom,#5594e3 0,#84bde1 100%);
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5594e3', endColorstr='#84bde1', GradientType=0);
-background-repeat:repeat-x;
+	position: relative; 
+	width: 100%; 
+	height: 250px; 
+	margin: -20px 0 20px 0;
+	background-color:#84bde1;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#5594e3),to(#84bde1));
+	background-image:-webkit-linear-gradient(top,#5594e3 0,#84bde1 100%);
+	background-image:-o-linear-gradient(top,#5594e3 0,#84bde1 100%);
+	background-image:linear-gradient(to bottom,#5594e3 0,#84bde1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5594e3', endColorstr='#84bde1', GradientType=0);
+	background-repeat:repeat-x;
 }
 
 #map-container { height: 300px; }
@@ -41,32 +46,32 @@ background-repeat:repeat-x;
  
 @keyframes desaparecer
 {
-0%		{bottom: 0px;}
-80%		{bottom: 0px;}
-100%	{bottom: -50px;}
+	0%		{bottom: 0px;}
+	80%		{bottom: 0px;}
+	100%	{bottom: -50px;}
 }
  
 @-webkit-keyframes desaparecer /* Safari and Chrome */
 {
-0%		{bottom: 0px;}
-80%		{bottom: 0px;}
-100%	{bottom: -50px;}
+	0%		{bottom: 0px;}
+	80%		{bottom: 0px;}
+	100%	{bottom: -50px;}
 }
  
 @keyframes aparecer
 {
-0%		{bottom: -38px;}
-10%		{bottom: 0px;}
-90%		{bottom: 0px;}
-100%	{bottom: -38px;}
+	0%		{bottom: -38px;}
+	10%		{bottom: 0px;}
+	90%		{bottom: 0px;}
+	100%	{bottom: -38px;}
 }
  
 @-webkit-keyframes aparecer /* Safari and Chrome */
 {
-0%		{bottom: -38px;}
-10%		{bottom: 0px;}
-90%		{bottom: 0px;}
-100%	{bottom: -38px;}
+	0%		{bottom: -38px;}
+	10%		{bottom: 0px;}
+	90%		{bottom: 0px;}
+	100%	{bottom: -38px;}
 }
 #cookiesms1:target {
     display: none;
@@ -85,8 +90,6 @@ background-repeat:repeat-x;
 	position:fixed;
 	left: 0px;
 	background-color: #000;
-	opacity:0.7;
-	filter:alpha(opacity=70); /* For IE8 and earlier */
 	transition: bottom 1s;
 	-webkit-transition:bottom 1s; /* Safari */
 	-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
@@ -96,30 +99,46 @@ background-repeat:repeat-x;
 }
  
 .cookiesms:hover{
-bottom:0px;
+	bottom:0px;
 }
 .cookies2{
-background-color: #000;
-display:inline;
-opacity:0.95;
-filter:alpha(opacity=95);
-position:absolute; 
-left:1%; 
-top:-50px;
-font-size:15px;
-height:35px;
-padding-top: 15px;
-padding-left:25px;
-padding-right:25px;
--webkit-border-top-right-radius: 15px;
--webkit-border-top-left-radius: 15px;
--moz-border-radius-topright: 15px;
--moz-border-radius-topleft: 15px;
-border-top-right-radius: 15px;
-border-top-left-radius: 15px;
--webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
--moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
-box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+	background-color: #000;
+	display:inline;
+	position:absolute; 
+	left:1%; 
+	top:-50px;
+	font-size:15px;
+	height:35px;
+	padding-top: 15px;
+	padding-left:25px;
+	padding-right:25px;
+	-webkit-border-top-right-radius: 15px;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	-moz-border-radius-topleft: 15px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+	-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+	box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
 }
- 
-/* Fin del CSS para cookies */
+
+
+
+/* Gestion de los contenidos */
+
+.columnaimagen1 {float: left; width: 100px; padding: 3px 10px 2px 0;}
+.columnatitol {float: left;  width: 600px; padding: 3px 10px 2px 0; }
+.columnaeliminar {float: left;  width: 50px; padding: 3px 10px 2px 0; }
+.link_esborrar:hover {background-color: red; }
+
+.listbox_continguts {float: left; width: 100%; }
+
+/* Formularis */
+.formesquerra  { width: 30%; float: left;}
+.formdreta {green; width: 70%; float: left;}
+.label_form_alineada {float: left; }
+.form-textarea {width: 500px; margin-bottom: 30px; font-size: 150%;}
+.form-textbox {width: 500px; margin-bottom: 30px; }
+
+.contingutformularis {width: 800px; margin: auto;  }  
